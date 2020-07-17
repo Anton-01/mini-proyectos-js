@@ -61,3 +61,35 @@ body {
 .inputBox #btn:active {
     background: #9c27b0;
 }
+
+.copy {
+    position: absolute;
+    height: 35px;
+    top: 64px;
+    right: 15px;
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+.copy:hover {
+    opacity: 1;
+}
+
+.alertBox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    text-align: center;
+    font-size: 4em;
+    display: none;
+}
+
+.alertBox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

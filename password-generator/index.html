@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Strong Generator Password</title>
+    <title>Strong Generator Password with Copy Button</title>
 </head>
 
 <body>
@@ -13,8 +13,10 @@
     <div class="inputBox">
         <h2>Random password generator app js </h2>
         <input type="text" id="password" placeholder="Create Password" readonly="">
+        <img src="clipboard.png" alt="Copy Clipboard" onclick="copyPassword();" class="copy">
         <div id="btn" onclick="getPassword();"> Generate Password</div>
     </div>
+    <div class="alertBox"></div>
 
 
 
